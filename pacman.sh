@@ -12,3 +12,8 @@ sudo pacman -R [packagename]
 
 # Installing package with yay
 yay -S [packagename]
+
+# Cloning into package git and building
+git clone [packagecloneurl]
+cd [packagename]
+makepkg -si
